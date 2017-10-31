@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74165CBA1FA33055000E5AD0 /* Confusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74165CB91FA33055000E5AD0 /* Confusion.swift */; };
 		74CC270D1F8CF6B100BD7332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC270C1F8CF6B100BD7332 /* AppDelegate.swift */; };
 		74CC270F1F8CF6B100BD7332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC270E1F8CF6B100BD7332 /* ViewController.swift */; };
 		74CC27121F8CF6B100BD7332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CC27101F8CF6B100BD7332 /* Main.storyboard */; };
 		74CC27141F8CF6B100BD7332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC27131F8CF6B100BD7332 /* Assets.xcassets */; };
 		74CC27171F8CF6B100BD7332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CC27151F8CF6B100BD7332 /* LaunchScreen.storyboard */; };
+		74CC27271F8CF7D900BD7332 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC27261F8CF7D900BD7332 /* Localization.swift */; };
+		74CC272B1F8CF82200BD7332 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC272A1F8CF82200BD7332 /* String+Localization.swift */; };
+		74CC272D1F8CF84200BD7332 /* ThoughtWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC272C1F8CF84200BD7332 /* ThoughtWorks.swift */; };
+		74CC272F1F8CF85400BD7332 /* ThoughtWorks+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC272E1F8CF85400BD7332 /* ThoughtWorks+Localization.swift */; };
+		74CC27321F8CF9D500BD7332 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74CC27341F8CF9D500BD7332 /* Localizable.strings */; };
+		8EF15E751FA8AD3B003FDD24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF15E741FA8AD3B003FDD24 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74165CB91FA33055000E5AD0 /* Confusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confusion.swift; sourceTree = "<group>"; };
 		74CC27091F8CF6B100BD7332 /* Typealias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typealias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CC270C1F8CF6B100BD7332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74CC270E1F8CF6B100BD7332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,15 @@
 		74CC27131F8CF6B100BD7332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74CC27161F8CF6B100BD7332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74CC27181F8CF6B100BD7332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC27201F8CF74000BD7332 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		74CC27211F8CF74000BD7332 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		74CC27261F8CF7D900BD7332 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		74CC272A1F8CF82200BD7332 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		74CC272C1F8CF84200BD7332 /* ThoughtWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtWorks.swift; sourceTree = "<group>"; };
+		74CC272E1F8CF85400BD7332 /* ThoughtWorks+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThoughtWorks+Localization.swift"; sourceTree = "<group>"; };
+		74CC27331F8CF9D500BD7332 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		74CC27351F8CF9DB00BD7332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EF15E741FA8AD3B003FDD24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74165CBB1FA330EC000E5AD0 /* ThoughtWorks */ = {
+			isa = PBXGroup;
+			children = (
+				74CC272C1F8CF84200BD7332 /* ThoughtWorks.swift */,
+			);
+			path = ThoughtWorks;
+			sourceTree = "<group>";
+		};
 		74CC27001F8CF6B100BD7332 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +79,69 @@
 		74CC270B1F8CF6B100BD7332 /* Typealias */ = {
 			isa = PBXGroup;
 			children = (
-				74CC270C1F8CF6B100BD7332 /* AppDelegate.swift */,
-				74CC270E1F8CF6B100BD7332 /* ViewController.swift */,
-				74CC27101F8CF6B100BD7332 /* Main.storyboard */,
-				74CC27131F8CF6B100BD7332 /* Assets.xcassets */,
-				74CC27151F8CF6B100BD7332 /* LaunchScreen.storyboard */,
-				74CC27181F8CF6B100BD7332 /* Info.plist */,
+				74165CB91FA33055000E5AD0 /* Confusion.swift */,
+				74CC27231F8CF75200BD7332 /* App */,
+				74CC27241F8CF76400BD7332 /* Home */,
+				74165CBB1FA330EC000E5AD0 /* ThoughtWorks */,
+				74CC27251F8CF7C200BD7332 /* Localization */,
 			);
 			path = Typealias;
+			sourceTree = "<group>";
+		};
+		74CC27231F8CF75200BD7332 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74CC270C1F8CF6B100BD7332 /* AppDelegate.swift */,
+				74CC27151F8CF6B100BD7332 /* LaunchScreen.storyboard */,
+				74CC27131F8CF6B100BD7332 /* Assets.xcassets */,
+				74CC27181F8CF6B100BD7332 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		74CC27241F8CF76400BD7332 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74CC27101F8CF6B100BD7332 /* Main.storyboard */,
+				74CC270E1F8CF6B100BD7332 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74CC27251F8CF7C200BD7332 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				74CC27261F8CF7D900BD7332 /* Localization.swift */,
+				74CC27341F8CF9D500BD7332 /* Localizable.strings */,
+				74CC27281F8CF7EE00BD7332 /* String */,
+				74CC27291F8CF80200BD7332 /* ThoughtWorks */,
+				8EF15E731FA8AD29003FDD24 /* User */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		74CC27281F8CF7EE00BD7332 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				74CC272A1F8CF82200BD7332 /* String+Localization.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		74CC27291F8CF80200BD7332 /* ThoughtWorks */ = {
+			isa = PBXGroup;
+			children = (
+				74CC272E1F8CF85400BD7332 /* ThoughtWorks+Localization.swift */,
+			);
+			path = ThoughtWorks;
+			sourceTree = "<group>";
+		};
+		8EF15E731FA8AD29003FDD24 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8EF15E741FA8AD3B003FDD24 /* User.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CC27171F8CF6B100BD7332 /* LaunchScreen.storyboard in Resources */,
+				74CC27321F8CF9D500BD7332 /* Localizable.strings in Resources */,
 				74CC27141F8CF6B100BD7332 /* Assets.xcassets in Resources */,
 				74CC27121F8CF6B100BD7332 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CC272D1F8CF84200BD7332 /* ThoughtWorks.swift in Sources */,
+				74CC272F1F8CF85400BD7332 /* ThoughtWorks+Localization.swift in Sources */,
 				74CC270F1F8CF6B100BD7332 /* ViewController.swift in Sources */,
 				74CC270D1F8CF6B100BD7332 /* AppDelegate.swift in Sources */,
+				74CC27271F8CF7D900BD7332 /* Localization.swift in Sources */,
+				8EF15E751FA8AD3B003FDD24 /* User.swift in Sources */,
+				74CC272B1F8CF82200BD7332 /* String+Localization.swift in Sources */,
+				74165CBA1FA33055000E5AD0 /* Confusion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +235,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				74CC27111F8CF6B100BD7332 /* Base */,
+				74CC27201F8CF74000BD7332 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +244,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				74CC27161F8CF6B100BD7332 /* Base */,
+				74CC27211F8CF74000BD7332 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74CC27341F8CF9D500BD7332 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC27331F8CF9D500BD7332 /* zh-Hans */,
+				74CC27351F8CF9DB00BD7332 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -276,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CKGWJSMEES;
-				INFOPLIST_FILE = Typealias/Info.plist;
+				INFOPLIST_FILE = Typealias/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.Typealias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CKGWJSMEES;
-				INFOPLIST_FILE = Typealias/Info.plist;
+				INFOPLIST_FILE = Typealias/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itrufeng.Typealias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
